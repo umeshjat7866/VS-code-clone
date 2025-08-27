@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@vscode/codicons/dist/codicon.css">
+
+  <title>tailwind</title>
+</head>
+<body class="m-0 p-0 overflow-hidden">
+  <div class="bg-neutral-700 h-10 p-3 flex ">
+    <ul class="flex gap-5 text-sm text-white cursor-pointer ">
+      <li>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+   alt="VS Code Logo" class="h-5 w-5"/></li>
+      <li>File</li>
+      <li>Edit</li>
+      <li>Selection</li>
+      <li>View</li>
+      <li>Go</li>
+      <li>Run</li>
+      <li>Terminal</li>
+      <li>Help</li>
+    </ul>
+    <div class="ml-10 flex gap-3 text-white cursor-pointer ">
+      <div><i class="fa-solid fa-arrow-left"></i> </div>
+      <div><i class="fa-solid fa-arrow-right"></i> </div>
+    </div>
+    <div class="flex ml-5 ">
+  <div>
+  <input 
+ class="bg-neutral-600 rounded-md w-xl text-center " type="search" placeholder="Day01">
+</div>
+   </div>
+    <div class="flex ml-2">
+      <div>
+  <i class="codicon codicon-target text-white cursor-pointer"></i>
+  <i class="codicon codicon-search text-white ml-32 cursor-pointer mr-2"></i>
+  <i class="codicon codicon-files text-white cursor-pointer mr-2"></i>
+  <i class="codicon codicon-debug text-white cursor-pointer mr-2"></i>
+  <i class="codicon codicon-account text-white cursor-pointermr-2"></i>
+  <i class="codicon codicon-chrome-minimize ml-10 text-white cursor-pointer mr-3 "></i>
+  <i class="codicon codicon-chrome-maximize text-white cursor-pointer mr-2"></i>
+  <i class="codicon codicon-chrome-close text-white cursor-pointer"></i>
+</div>
+
+    </div>
+  </div>
+
+  <div class="bg-slate-700 flex h-screen">
+    <div class="w-4/100 bg-neutral-600 p-3 flex flex-col justify-between">
+      <ul class="text-2xl text-white cursor-pointer">
+        <li class="mb-6"><i class="fa-regular fa-folder"></i></li>
+        <li class="mb-6"><i class="fa-solid fa-search"></i></li>
+        <li class="mb-6"><i class="fab fa-github"></i></li>
+        <li class="mb-6"><i class="fab fa-amazon"></i></li>
+        <li class="mb-6"><i class="fas fa-gear"></i></li>
+      </ul>
+      <ul class="text-2xl text-white mb-3 cursor-pointer">
+        <li class="mb-6"><i class="fab fa-github"></i></li>
+        <li class="mb-6"><i class="fab fa-amazon"></i></li>
+        <li class="mb-6"><i class="fas fa-gear"></i></li>
+      </ul>
+    </div>
+
+    <div class="w-20/100 bg-slate-700">
+  
+  <div class="flex justify-between h-10 p-3">
+    <p class="text-gray-400">EXPLORER</p>
+    <i class="fas fa-ellipsis mt-1 text-gray-400 cursor-pointer"></i>
+  </div>
+ 
+  <div class="flex justify-between p-2 text-gray-400">
+    <div class="flex">
+  <i class="fas  fa-chevron-down mt-1 cursor-pointer"></i>
+   <p class="">Day01</p>
+    </div>
+  
+  <div class=" gap-3 mt-1 flex opacity-0 hover:opacity-100 cursor-pointer ">
+    <i class="far fa-file"></i>
+    <i class="far fa-folder-open"></i>
+    <i class="fas fa-spinner"></i>
+    <i class="fas fa-folder-open"></i>
+  </div> 
+  </div>
+
+  <div class="bg-slate-600 h-9">
+<div class="flex justify-center gap-1 p-1">
+  <i class="fab fa-html5 text-red-500 mt-3 text-sm"></i>
+  <p class="mt-1 text-gray-400 text-lg cursor-pointer">index.html</p>
+</div>
+  </div>
+
+  <div class=" hover:bg-slate-600 cursor-pointer h-9 mt-2 ">
+<div class="flex justify-center gap-1 p-1">
+  <i class="fab fa-css3 text-yellow-500 mt-3 text-sm"></i>
+  <p class="mt-1 text-gray-400 text-lg">style.css</p>
+</div>
+  </div>
+
+    <div class=" hover:bg-slate-600 cursor-pointer h-9 mt-2 ">
+<div class="flex justify-center gap-1 p-1">
+  <i class="fab fa-js text-yellow-500 mt-3 text-sm"></i>
+  <p class="mt-1 text-gray-400 text-lg">script.js</p>
+</div>
+  </div>
+
+<div class="mt-113 text-gray-400 cursor-pointer">
+<div class="ml-3 mb-1">  <i class="fas  fa-chevron-right mt-1"></i>OUTLINE</div>
+<div class="ml-3 mb-1">  <i class="fas  fa-chevron-right mt-1"></i>TIMELINE</div>
+<div class="ml-3 mb-1">  <i class="fas  fa-chevron-right mt-1"></i>METADATA</div>
+</div>
+</div>
+
+<div class="w-80/100 bg-slate-900">
+
+    <div class="flex flex-col bg-slate-800 cursor-pointer">
+        
+          <div class="flex gap-1">
+            <div class="text-white bg-slate-900 p-3 text-xs flex items-center">
+              <i class="fa-solid fa-code text-red-400 mr-2"></i> index.html 
+            </div>
+            <div class="text-white bg-slate-900 p-3 text-xs flex items-center">
+              <i class="fa-solid fa-code text-red-400 mr-2"></i> temp.html
+            </div>
+            <div class="text-white bg-slate-900 p-3 text-xs flex items-center">
+              <i class="fa-solid fa-code text-red-400 mr-2"></i> landing_page.html
+            </div>
+          </div>
+</div>
+
+    <div class=" bg-slate-900 text-white p-4 font-mono text-sm overflow-auto" >
+
+    <h2 class="text-yellow-400 font-semibold mb-2 ml-20"> HTML and CSS Code </h2>
+            <pre>
+             &lt;html&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;title&gt;hello&lt;/title&gt;
+                &lt;/head&gt;
+                &lt;body&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                             &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+                             &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+                
+                &lt;/body&gt;
+                &lt;/html&gt;
+              </pre>
+          </div>
+        </div>
+      </div>
+</div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
