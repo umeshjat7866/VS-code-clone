@@ -9,7 +9,7 @@ A pixel-perfect, responsive clone of the Visual Studio Code (VS Code) interface 
 
 ## 📸 Preview
 
-![VS Code Clone Preview](./https://github.com/umeshjat7866/VS-code-clone/blob/main/vs01.png?raw=true)
+![VS Code Clone Preview](https://github.com/umeshjat7866/VS-code-clone/blob/9713764a834c2740b6dcd09be3337f9675ef49a3/vs01.png)
 
 ---
 
